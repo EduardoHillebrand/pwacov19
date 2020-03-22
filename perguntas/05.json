@@ -1,4 +1,5 @@
 {
+    "id":"seus-sintomas",
     "pergunta":"Quais desses sintomas você está sentindo? ",
     "tipo":"multiplo",
     "calc":false,

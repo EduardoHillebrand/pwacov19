@@ -1,8 +1,9 @@
-{
+{   
+    "id":"seu-estado",
     "pergunta":"Qual Estado você mora?",
     "tipo":"unico",
     "calc":false,
-    "filho":3,
+    "filho":"sua-cidade",
     "respostas":[
         {"filter": "1",  "option": "Acre", "value": "Acre" },
         {"filter": "2",  "option": "Alagoas", "value": "Alagoas" },
@@ -30,6 +31,6 @@
         {"filter": "24", "option": "Santa Catarina", "value": "Santa Catarina" },
         {"filter": "25", "option": "Sergipe", "value": "Sergipe" },
         {"filter": "26", "option": "São Paulo", "value": "São Paulo" },
-        {"filter": "27", "option": "Tocantins", "value": "Tocantins" },
+        {"filter": "27", "option": "Tocantins", "value": "Tocantins" }
     ]
 }

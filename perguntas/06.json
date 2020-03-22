@@ -1,4 +1,5 @@
 {
+    "id":"sua-condicao",
     "pergunta":"Possui alguma condição médica pré-existente?",
     "tipo":"multiplo",
     "calc":true,

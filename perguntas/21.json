@@ -1,4 +1,5 @@
 {
+	"id":"aderi-quarentena",
     "pergunta":"Você aderiu a quarentena?",
     "tipo":"unico",
     "calc":false,

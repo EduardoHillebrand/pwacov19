@@ -1,4 +1,5 @@
 {
+    "id":"pessoas-contato",
     "pergunta":"Quantas pessoas que você tem contato direto por dia?",
     "tipo":"unico",
     "calc":false,

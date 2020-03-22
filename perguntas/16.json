@@ -1,4 +1,5 @@
 {
+	"id":"contato-confirmado",
     "pergunta":"Teve contato com alguma pessoa com quadro confirmado (ou suspeito) de coronavírus nos últimos 15 dias?",
     "tipo":"unico",
     "calc":false,

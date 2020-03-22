@@ -1,4 +1,5 @@
 {
+	"id":"familia-grupo-risco",
     "pergunta":"Alguma delas pertence ao grupo de risco?",
     "tipo":"unico",
     "calc":false,

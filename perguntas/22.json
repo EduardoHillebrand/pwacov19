@@ -1,4 +1,5 @@
 {
+    "id":"aderi-quarentena-dias",
     "pergunta":"Há quantos dias?",
     "tipo":"unico",
     "calc":false,
