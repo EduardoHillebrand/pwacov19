@@ -8,15 +8,19 @@ import {
   MatInputModule,
   MatListModule,
   MatToolbarModule,
+  MatSelectModule,
 } from '@angular/material';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
+
+import { FormComponent } from './form/form.component';
 import { AppComponent } from './app.component';
 import { TodoComponent } from './todo/todo.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { FormComponent } from './form/form.component';
+
 
 
 @NgModule({
@@ -30,8 +34,6 @@ import { FormComponent } from './form/form.component';
     BrowserAnimationsModule,
 		FormsModule,
     ReactiveFormsModule,
-    FormComponent,
-
     MatToolbarModule,
     MatListModule,
     MatButtonModule,
@@ -39,6 +41,8 @@ import { FormComponent } from './form/form.component';
     MatInputModule,
     MatIconModule,
     FlexLayoutModule,
+    HttpClientModule,
+    MatSelectModule,
     ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
