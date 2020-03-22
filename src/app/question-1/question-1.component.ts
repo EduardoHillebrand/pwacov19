@@ -31,5 +31,8 @@ export class Question1 implements OnInit {
 
   }
   
+  selectedItem(){
+    console.log(this.result);
+  }
 
 }

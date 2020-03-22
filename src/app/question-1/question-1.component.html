@@ -2,7 +2,7 @@
   <h4>{{urlToJson.pergunta}}</h4>
   <mat-form-field>
     <mat-label>*</mat-label>
-    <mat-select>
+    <mat-select [(value)]="result" (valueChange)="selectedItem()">
       <mat-option *ngFor="let res of urlToJson.respostas" [value]="res.value">
         {{res.option}}
       </mat-option>

@@ -20,6 +20,7 @@ import { AppComponent } from './app.component';
 import { TodoComponent } from './todo/todo.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { RecebeRespostasComponent } from './recebe-respostas/recebe-respostas.component';
 
 
 
@@ -27,7 +28,8 @@ import { environment } from '../environments/environment';
   declarations: [
     AppComponent,
     TodoComponent,
-    Question1
+    Question1,
+    RecebeRespostasComponent
   ],
   imports: [
     BrowserModule,
