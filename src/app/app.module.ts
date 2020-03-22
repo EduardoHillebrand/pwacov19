@@ -21,6 +21,8 @@ import { TodoComponent } from './todo/todo.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { RecebeRespostasComponent } from './recebe-respostas/recebe-respostas.component';
+import { Question13Component } from './question13/question13.component';
+import { Question14Component } from './question14/question14.component';
 
 
 
@@ -29,7 +31,9 @@ import { RecebeRespostasComponent } from './recebe-respostas/recebe-respostas.co
     AppComponent,
     TodoComponent,
     Question1,
-    RecebeRespostasComponent
+    RecebeRespostasComponent,
+    Question13Component,
+    Question14Component
   ],
   imports: [
     BrowserModule,
