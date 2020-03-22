@@ -1,0 +1,17 @@
+{
+  "id": "pessoas-contato",
+  "pergunta": "Em que dias da semana?",
+  "tipo": "unico",
+  "calc": false,
+  "respostas": [{
+      "option": "segunda a sexta",
+      "value": 0.66666,
+      "id": "dia_sem"
+    },
+    {
+      "option": "sábado, domingo",
+      "value": 0.33333,
+      "id": "dia_fds"
+    }
+  ]
+}

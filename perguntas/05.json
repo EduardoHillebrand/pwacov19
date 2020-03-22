@@ -4,15 +4,15 @@
     "tipo":"multiplo",
     "calc":false,
     "respostas":[
-        {"option": "cansaço"					, "value": 0 },
-        {"option": "congestão nasal"			, "value": 0 },
-        {"option": "corrimento nasal (coriza)"	, "value": 0 },
-        {"option": "dificuldade para respirar"	, "value": 0 },
-        {"option": "dor de cabeça"				, "value": 0 },
-        {"option": "dor de garganta "			, "value": 0 },
-        {"option": "dores pelo corpo"			, "value": 0 },
-        {"option": "febre"						, "value": 0 },
-        {"option": "mal estar geral"			, "value": 0 },
-        {"option": "tosse"						, "value": 0 }
+        {"option": "cansaço"			, "value": 0, "id": "S1" },
+        {"option": "congestão nasal"		, "value": 1, "id": "S2" },
+        {"option": "coriza"			, "value": 1, "id": "S3" },
+        {"option": "dificuldade para respirar"	, "value": 3, "id": "S4" },
+        {"option": "dor de cabeça"		, "value": 0, "id": "S5" },
+        {"option": "dor de garganta "		, "value": 1, "id": "S6" },
+        {"option": "dores pelo corpo"		, "value": 0, "id": "S7" },
+        {"option": "febre"			, "value": 2, "id": "S8" },
+        {"option": "mal estar geral"		, "value": 0, "id": "S9" },
+        {"option": "tosse"			, "value": 2, "id": "S10" }
     ]
 }

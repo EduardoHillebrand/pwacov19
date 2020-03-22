@@ -1,5 +1,5 @@
 {
-	"id":"sua-profissao",
+    "id":"sua-profissao",
     "pergunta":"Sua profissão requer contato com muitas pessoas diariamente?",
     "tipo":"unico",
     "calc":false,

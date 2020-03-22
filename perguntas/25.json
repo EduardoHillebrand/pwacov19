@@ -1,0 +1,10 @@
+{   
+    "id":"onde-esta",
+    "pergunta":"Onde você está agora? ",
+    "tipo":"unico",
+    "calc":false,
+    "respostas":[
+        {"option": "Em casa" , "value": 0 },
+        {"option": "Posto de atendimento de saúde" , "value": 1 }
+    ]
+}   

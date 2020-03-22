@@ -1,11 +1,11 @@
 {	
-	"id":"seu-sexo",
+    "id":"seu-sexo",
     "pergunta":"Sexo: ",
     "tipo":"unico",
     "calc":true,
     "respostas":[
-        {"option": "Masculino"   , "value": 1.1 },
-        {"option": "Feminino"    , "value": 0.9 },
-        {"option": "Não declarar", "value": 1.1 }
+        {"option": "Masculino"   , "value": 1.0 },
+        {"option": "Feminino"    , "value": 0.6071429 },
+        {"option": "Não declarar", "value": 1.0 }
     ]
 }
