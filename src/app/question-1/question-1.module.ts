@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormComponent } from './form.component';
+import { Question1 } from './question-1.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import {
@@ -25,6 +25,6 @@ import {
     MatListModule,
     MatToolbarModule,
   ],
-  declarations: [FormComponent]
+  declarations: [Question1]
 })
 export class FormModule { }

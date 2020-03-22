@@ -1,0 +1,11 @@
+<div class="auto-width">
+  <h4>{{urlToJson.pergunta}}</h4>
+  <mat-form-field>
+    <mat-label>*</mat-label>
+    <mat-select>
+      <mat-option *ngFor="let res of urlToJson.respostas" [value]="res.value">
+        {{res.option}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>

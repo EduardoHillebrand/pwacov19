@@ -1,4 +1,4 @@
-import { FormModule } from './form.module';
+import { FormModule } from './question-1.module';
 
 describe('FormModule', () => {
   let formModule: FormModule;

@@ -15,7 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 
 
-import { FormComponent } from './form/form.component';
+import { Question1 } from './question-1/question-1.component';
 import { AppComponent } from './app.component';
 import { TodoComponent } from './todo/todo.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -27,7 +27,7 @@ import { environment } from '../environments/environment';
   declarations: [
     AppComponent,
     TodoComponent,
-    FormComponent
+    Question1
   ],
   imports: [
     BrowserModule,
